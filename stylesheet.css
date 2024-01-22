@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background: url('https://image.slidesdocs.com/responsive-images/background/simple-white-education-pencil-calculator-art-powerpoint-background_644fe4b2ed__960_540.jpg');
+  background-size: cover;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background: #BEB889;
+  font-size: 20px;
+}
+
+.button:active {
+     background-image: linear-gradient(#BEB889, white);
+}
+
+#btn:active {
+    background: #f15d5d;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #7A6661;
+    color: white;
+}
+
+.box{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #2f2c2c;
+}
